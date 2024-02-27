@@ -7,6 +7,35 @@
     <title>MK Characters</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.cdnfonts.com/css/mortal-kombat" rel="stylesheet">
+    <style>
+        .mk-table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+            border-radius: 20px;
+        }
+
+        .mk-table th,
+        .mk-table td {
+            padding: 12px;
+            text-align: center;
+        }
+
+        .mk-table th {
+            background-color: #b28200;
+            color: white;
+        }
+
+        .mk-table tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        .mk-table tr:hover {
+            background-color: #f1f1f1;
+        }
+    </style>
 </head>
 
 <body class="body">
@@ -139,6 +168,43 @@
 
         </section>
 
+        
+        <section class="table">
+            <div class="table-container">
+                <h1 class="title-2">THEIR SPECIAL ATTACK</h1>
+                <br>
+                <table class="mk-table">
+                    <thead>
+                        <tr>
+                            <th>Character name</th>
+                            <th>Game</th>
+                            <th>Special attack</th>
+                            <th>Fatality</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Scorpion</td>
+                            <td>Mortal Kombat</td>
+                            <td>Teleport</td>
+                            <td>Fatality: "Get over here!"</td>
+                        </tr>
+                        <tr>
+                            <td>Sub-Zero</td>
+                            <td>Mortal Kombat</td>
+                            <td>Ice punch</td>
+                            <td>Fatality: "Spine Rip"</td>
+                        </tr>
+                        <tr>
+                            <td>Sonya Blade</td>
+                            <td>Mortal Kombat</td>
+                            <td>Gun Attack</td>
+                            <td>Fatality: "Headshot!"</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
         <section class="fav_char-section">
             <h1 class="title-2">YOUR FAVOURITE CHARACTER BLANK</h1>
             <form action="#" class="form">
@@ -160,7 +226,7 @@
 
                 <label for="range" class="label_inputs">Rate this website?</label>
                 <input type="range" id="range">
-                
+
                 <div class="checkbox">
                     <label for="checkbox" class="label_inputs">Do you want receive news about MK Updates?</label>
                     <br>
@@ -170,7 +236,7 @@
                     <input type="radio" id="no" value="no" name="news">
                 </div>
 
-                
+
 
                 <input type="submit" class="submit">
                 <input type="reset" class="reset">
