@@ -319,7 +319,7 @@ a {
   .description-list__design {
     position: absolute;
     width: 900px;
-    height: 300px;
+    height: 350px;
     border: 3px solid rgb(0, 0, 0);
     display: inline-block;
     padding: 20px 60px;
@@ -331,5 +331,9 @@ a {
     color: #fff;
     text-align: center;
     z-index: -1;
+  }
+
+  .description-list_char {
+    color: rgb(255, 111, 0);
   }
 
