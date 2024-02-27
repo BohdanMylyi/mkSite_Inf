@@ -14,6 +14,7 @@
 }
 
 .body {
+    height: 100%;
     background-color: #000000;
     margin: 0;
     overflow-x: hidden;
@@ -74,7 +75,7 @@ a {
 }
 
 .background {
-    height: 85%;
+    height: 65%;
     width: 93%;
     border-radius: 20px;
     margin: 30px;
@@ -337,3 +338,57 @@ a {
     color: rgb(255, 111, 0);
   }
 
+
+  .form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .fav_char-section {
+    background-image: url(/image/background-4.jpg);
+    height: 100%;
+    width: 93%;
+    border-radius: 20px;
+    margin: 30px;
+  }
+
+  .input {
+    width: 230px;
+    height: 30px;
+    border-radius: 20px;
+  }
+
+  .label_inputs {
+    color: #fff;
+    margin-top: 10px;
+  }
+
+  .textarea {
+    border-radius: 10px;
+  }
+
+  .checkbox {
+      height: 60px;
+      width: 500px;
+      background-color: #004683;
+      text-align: center;
+      padding: 5px;
+      border-radius: 20px;
+      margin-bottom: 10px;
+  }
+
+  .submit {
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: #87ff9b;
+  }
+
+  .reset {
+    height: 30px;
+    width: 90px;
+    border-radius: 20px;
+    background-color: #ff8787;
+  }
